@@ -1,0 +1,144 @@
+body {
+  --bg: #ffffff;
+  --redmain: #cf3b31;
+  --titleblack: #232323;
+  --text: #000000;
+  --pressedbtn: #8a160e;
+  --secondary: #dddddd;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Barlow", Verdana, Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  min-width: 100%;
+}
+.logo {
+  left: 10%;
+  position: absolute;
+  top: 0;
+  font-family: "Calistoga", Georgia, "Times New Roman", Times, serif;
+  color: var(--titleblack);
+  background-color: var(--redmain);
+  width: 200px;
+  height: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 35px;
+  text-align: center;
+  z-index: 1;
+}
+.logo p {
+  font-size: 35px;
+}
+.logolink {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yanone Kaffeesatz", Georgia, "Times New Roman", Times, serif;
+}
+.subjects p {
+  font-family: "Yanone Kaffeesatz", Georgia, "Times New Roman", Times, serif;
+  list-style-type: none;
+  font-size: 30px;
+}
+.menu ul {
+  margin-left: 20% + 200px;
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline;
+  font-size: 25px;
+}
+.content {
+  position: absolute;
+  max-width: 80%;
+  left: 10%;
+  right: 10%;
+  top: 130px;
+  padding-bottom: 2.5rem;
+}
+nav {
+  background-color: var(--secondary);
+  font-family: "Yanone Kaffeesatz", Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding-left: 25%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--secondary);
+  text-align: center;
+}
+button {
+  display: inline-block;
+  border: none;
+  background-color: var(--redmain);
+  color: var(--bg);
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:active,
+button:hover {
+  background-color: var(--pressedbtn);
+}
+h2,
+h4 {
+  color: var(--redmain);
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+  cursor: pointer;
+}
+nav ul li {
+  margin: 3%;
+}
+p {
+  margin-top: -7px;
+  font-size: 20px;
+}
+.logo p {
+  margin-top: 15px;
+}
+#sharetext {
+  text-align: center;
+}
+body.darkmode {
+  --text: #ffffff;
+  --bg: #1a1a1a;
+  --redmain: #9e1818;
+  --titleblack: #121212;
+  --secondary: #121212;
+  --pressedbtn: #5e0e0e;
+}
+.modetoggle {
+  width: 75px;
+  height: fit-content;
+  margin-left: 3%;
+}
+li {
+  list-style: none;
+}
+.txtmail {
+  display: inline-block;
+  vertical-align: middle;
+}

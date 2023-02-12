@@ -1,0 +1,1017 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Český jazyk k maturittě</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/scriptdm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logolink" href="../index.html">
+                <div class="logo">
+                    <p>Český jazyk<br />k maturitě</p>
+                </div>
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">MENU</a></li>
+                    <li><a href="../about.html">O PROJEKTU</a></li>
+                    <li><a href="../contacts.html">KONTAKT</a></li>
+                    <li>
+                        <button class="modetoggle" onclick="dmtoggle()">
+                            <span class="material-symbols-outlined"> dark_mode </span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>Cvičení ke slohovým postupům</h1>
+            <h4>Cvičení 1</h4>
+            <p>
+                <i>
+                    "Nejsem žádný spisovatel, ale rozhodl jsem se, že si začnu psát každý den aspoň malý záznam
+                    toho, co se mi přes den přihodilo, co mě potěšilo, nebo naopak naštvalo."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn1" onclick="showhint1()">Nápověda</button>
+            <button id="answerbtn1" onclick="showanswer1()">Odpověď</button>
+            <div id="hint1" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je deník. Zkuste si vybavit jeho strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer1" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup. Autor textu se rozhodl psát „sám pro sebe“, tudíž mu
+                    nepůjde ani o estetickou ani o jazykovou stránku, snaží se pouze sdělit, co se stalo v jeho
+                    podání.
+                </p>
+            </div>
+
+            <h4>Cvičení 2</h4>
+            <p>
+                <i>
+                    "Vaření se profesionálně věnuji už od roku 2013. Pracovala jsem v několika restauracích a za
+                    tu dobu jsem získala spoustu nápadů a inspirace na jídla, která ještě nikdo přede mnou nevařil.
+                    Rozhodla jsem se proto, že své nápady sepíšu do knihy, kterou budu prodávat."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn2" onclick="showhint2()">Nápověda</button>
+            <button id="answerbtn2" onclick="showanswer2()">Odpověď</button>
+            <div id="hint2" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je „kuchařka“. Zkuste si vybavit její strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer2" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Autorka textu sepisuje kuchařku. Součástí kuchařku musí
+                    být postupy, jak jednotlivé recepty provádět, gramáž surovin, čas, jak dlouho něco péct atd.
+                </p>
+            </div>
+
+            <h4>Cvičení 3</h4>
+            <p>
+                <i>
+                    "Při hodině chemie jsme dělali pokus s modrou skalicí. Ještě předtím než jsme s pokusem začali,
+                    řekla nám učitelka, že si musíme zapsat, co všechno budeme při pokusu potřebovat. Pak jsme
+                    udělali pokus a zapsali jsme výsledek."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn3" onclick="showhint3()">Nápověda</button>
+            <button id="answerbtn3" onclick="showanswer3()">Odpověď</button>
+            <div id="hint3" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je „chemický pokus“. Zkuste si vybavit jeho strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer3" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Žáci zde popisují, jak pokus probíhá, jaké pomůcky
+                    k němu potřebovali a jaký je výsledek jejich pozorování.
+                </p>
+            </div>
+
+            <h4>Cvičení 4</h4>
+            <p>
+                <i>
+                    "Ve škole jsme dostali za úkol vytvořit krátký text na téma 'Měli bychom se bát umělé
+                    inteligence?'. Nejdřív jsme se měli nad tématem zamyslet a zkusit se na něj podívat z několika
+                    úhlů pohledu. Potom jsme měli své myšlenky shrnout a zapsat tak, aby to mělo 'hlavu a patu'."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn4" onclick="showhint4()">Nápověda</button>
+            <button id="answerbtn4" onclick="showanswer4()">Odpověď</button>
+            <div id="hint4" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Žáci se měli nad tématem zamyslet a vymyslet vlastní konstruktivní zhodnocení daného
+                    tématu. Svoje argumenty pak měli sepsat do daného útvaru. Pro který útvar jsou typické
+                    vlastnosti vlastní názor, argumentace(pro i proti), ale i prezentace obecně známých faktů?
+
+                </p>
+            </div>
+            <div id="answer4" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je úvahový postup. Pokud se žáci měli zamyslet nad tématem, museli přijít
+                    na své vlastní názory, které měli sepsat a podnítit tak čtenáře k vlastní úvaze.
+                </p>
+            </div>
+
+            <h4>Cvičení 5</h4>
+            <p>
+                <i>
+                    "Jsem mořská bioložka a snažím se zajistit podporu sítě chráněných mořských oblastí. V
+                    průběhu mé kariéry jsem nashromáždila nepřeberné množství dat, mnoho úplně nových
+                    informací a poznatků. Všechny tyto poznatky jsem sepsala do knihy, kterou bych chtěla
+                    publikovat a mohla tak šířit osvětu."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn5" onclick="showhint5()">Nápověda</button>
+            <button id="answerbtn5" onclick="showanswer5()">Odpověď</button>
+            <div id="hint5" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Autorka textu nám předkládá zcela nové informace, které sama sepsala do studie tak, aby byly
+                    pochopitelné pro lidi nevzdělané v jejím oboru. Snaží se jim nabité informace předat
+                    srozumitelně, ale zároveň dostatečně odborně.
+
+                </p>
+            </div>
+            <div id="answer5" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je výkladový postup. Kniha, kterou autorka vydala je výkladem jích získaných
+                    informací, které se snaží předat dál, aby mohla vzdělat další lidi v jejím oboru.
+                </p>
+            </div>
+
+            <h4>Cvičení 6</h4>
+            <p>
+                <i>
+                    "Nedávno mě na ulici zastavila paní a zeptala se mě, jestli nevím, jak se dostane na Smíchovské
+                    nádraží. Snažil jsem se jí proto vysvětlit, kudy má jít, aby měla cestu co nejrychlejší a
+                    nejpohodlnější."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn6" onclick="showhint6()">Nápověda</button>
+            <button id="answerbtn6" onclick="showanswer6()">Odpověď</button>
+            <div id="hint6" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Pro tento slohový útvar je typická jeho stručnost a výčet fakt. Autor textu se snažil co nejlépe
+                    popsat cestu, ale zároveň dostatečně stručně, aby si je paní dokázala zapamatovat.
+
+                </p>
+            </div>
+            <div id="answer6" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Autor podal paní prostý popis cesty, kudy se má vydat,
+                    předem nijak nepromyšlený, ovšem stále s pokyny a dalšími charakteristickými prvky
+                    popisného postupu.
+                </p>
+            </div>
+
+            <h4>Cvičení 7</h4>
+            <p>
+                <i>
+                    "Asi před dvěma týdny se mi stala úplně šílená věc, když jsem šla ze školy domů. Byla jsem z
+                    toho v takovém šoku, že hned, jak jsem přišla domů, ani jsem si nesundala boty a už jsem celou
+                    událost říkala mamce."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn7" onclick="showhint7()">Nápověda</button>
+            <button id="answerbtn7" onclick="showanswer7()">Odpověď</button>
+            <div id="hint7" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Autorka textu přeříkala událost, která se jí stala a byla jedinečná. Popisuje ji ze svého pohledu
+                    tak, jak ona sama uznává za vhodné.
+
+                </p>
+            </div>
+            <div id="answer7" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je vyprávěcí postup. Slohovým útvarem je prosté vypravování, protože
+                    autorka svůj projev nijak připravený neměla, pouze sdělila, co za událost se ji stalo.
+                </p>
+            </div>
+
+            <h4>Cvičení 8</h4>
+            <p>
+                <i>
+                    "Jsem učitelem třetím rokem. Při práci s dětmi jsem se naučil, že ve většině případů nejsou
+                    schopny udržet pozornost na déle než 20 minut. Svoje hodiny se proto snažím koncipovat
+                    interaktivně, aby je bavily a zvládly toho více. Čas od času s nimi ale musím mít 'nudnou'
+                    hodinu, při které jim vysvětlím látku a ony musí sedět a poslouchat."
+                </i><br />
+                Jaký slohový postup učitel nejvíce používá při jeho 'nudných' hodinách?
+            </p>
+            <button id="hintbtn8" onclick="showhint8()">Nápověda</button>
+            <button id="answerbtn8" onclick="showanswer8()">Odpověď</button>
+            <div id="hint8" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zkuste si vybavit nějakou Vaší hodinu, při které Vám učitel vysvětloval novou látku. Jak učitel
+                    mluvil, jakou strukturu měla jeho hodina?
+                </p>
+            </div>
+            <div id="answer8" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je výkladový postup. Autor se snaží dětem předat fakta srozumitelně a
+                    stručně tak, aby je pochopily a byly schopny s nimi dále pracovat.
+                </p>
+            </div>
+
+            <h4>Cvičení 9</h4>
+            <p>
+                <i>
+                    "Pracuji u novin. Narozdíl od svých kolegů však nehledám informace o aktuálním dění. Já
+                    naopak hledám naprosto všední věci a na ty se zkouším dívat z pohledu, ze kterého se na ně
+                    ještě nikdo přede mnou nedíval. Vybrané téma se pak snažím podat zábavnou formou - taková
+                    trocha odlehčení oproti všem těm špatným zprávám."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn9" onclick="showhint9()">Nápověda</button>
+            <button id="answerbtn9" onclick="showanswer9()">Odpověď</button>
+            <div id="hint9" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je fejeton. Zkuste si vybavit její strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer9" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Jedná se o úvahový postup. U fejetonu se snaží autor dívat se na věci novým úhlem pohledu,
+                    podnítit u čtenáře přemýšlení a pobavit ho.
+                </p>
+            </div>
+
+            <h4>Cvičení 10</h4>
+            <p>
+                <i>
+                    "Jsem autorkou několika knih pro děti. V mých knížkách vystupují dvě hlavní postavy - děvčátko
+                    Soňa a chlapeček Tonda. Společně ti dva zažívají spousty dobrodružství, legrace, ale taky
+                    okamžiků, kdy musí oba dva spojit své síly, aby všechno zvládli."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn10" onclick="showhint10()">Nápověda</button>
+            <button id="answerbtn10" onclick="showanswer10()">Odpověď</button>
+            <div id="hint10" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je „dětská knížka“. Zkuste si vybavit její strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer10" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je vyprávěcí postup. Autorka zde popisuje dobrodružství, která se dětem
+                    přihodila, z čehož vyplývá, že knihy budou mít dějovou linku, na které se budou odehrávat
+                    jednotlivé události.
+                </p>
+            </div>
+
+            <h4>Cvičení 11</h4>
+            <p>
+                <i>
+                    "Když jsem jela na tábor, musela maminka vyplnit papír, který potvrzoval, že jsem bezinfekční
+                    a nenakazím další děti."
+                </i><br />
+                Jaký slohový postup je použit v útvaru, který se snaží přiblížit výchozí text?
+            </p>
+            <button id="hintbtn11" onclick="showhint11()">Nápověda</button>
+            <button id="answerbtn11" onclick="showanswer11()">Odpověď</button>
+            <div id="hint11" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Pro tento útvar je charakteristické místní a časové zakotvení, osobní údaje, stručnost a
+                    přehlednost vyjádření. Pro který slohový útvar jsou tyto prvky typické?
+                </p>
+            </div>
+            <div id="answer11" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup. Prohlášení, které musela maminka vyplnit bylo
+                    stručné, přehledné a pouze nás informovalo o stavu.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 12</h4>
+            <p>
+                <i>
+                    Nikdy jsem nepochopil, proč se maturitě říká "zkouška dospělosti". Pod pojmem zkouška
+                    dospělosti bych si spíše představil něco ve stylu: "Synu, už je ti sedm let, je na čase, abys vyrazil
+                    do džungle ulovit ledního medvěda. Bez něj se nevracej!" Ale maturita?
+                    V posledních letech mám však pocit, že tato zkouška v nás mladých studentech vzbuzuje
+                    opravdu velmi podobné obavy. V tomto případě to ale není kvůli tomu, že by nás čekala téměř
+                    jistá smrt u toho, jak se snažíme nalákat ledního medvěda do džungle, aby na nás byl celý kmen
+                    pyšný. Naše obavy jsou způsobeny okolím. A tím myslím opravdu ze všech stran. Ať už jde o
+                    učitele, kteří s ní hrozí dvanáct let dopředu, během nichž do vás hustí slova, která vás zmatou
+                    natolik, že si už nejste jistí, jestli kantor zrovna mluví o druhu verše nebo o pohlavních
+                    nemocech. Epizeuxis, syfilis, rigor mortis, homo habilis...<sup>[1]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn12" onclick="showhint12()">Nápověda</button>
+            <button id="answerbtn12" onclick="showanswer12()">Odpověď</button>
+            <div id="hint12" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zaměřte se na to zda je text subjektivně či objektivně napsán, jaké jsou použité stylistické
+                    prvky a slovní zásoba.
+                </p>
+            </div>
+            <div id="answer12" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je úvahový postup. Charakteristickými prvky jsou řečnické otázka, přímá řeč,
+                    slovní obraty naznačující subjektivitu („mám pocit“, „myslím si“).
+
+                </p>
+            </div>
+
+            <h4>Cvičení 13</h4>
+            <p>
+                <i>
+                    Scotia však sama nenarazila, nýbrž cosi narazilo na ni, a to předmětem spíš špičatým a ostrým
+                    než tupým. Srážka se zdála tak lehká, že by se byl na lodi nikdo nepočkal, kdyby na palubu
+                    nevyběhli topiči a nevolali: „Potápíme se! Potápíme se!”
+                    Cestující byli zprvu nesmírně poděšeni, ale kapitán Anderson je rychle uklidnil. Nebezpečí
+                    nebylo opravdu tak hrozivé. Scotia byla rozdělena vodotěsnými přepážkami na sedm oddělení,
+                    a proto mohla bez nebezpečí čelit zaplavení.
+                    <sup>[2]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn13" onclick="showhint13()">Nápověda</button>
+            <button id="answerbtn13" onclick="showanswer13()">Odpověď</button>
+            <div id="hint13" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zaměřte se na dynamiku textu a popis jednotlivých událostí.
+                </p>
+            </div>
+            <div id="answer13" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je vyprávěcí postup. Charakteristickými prvky jsou dějová slovesa, stručný
+                    popis jednotlivých předmětu a dějů.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 14</h4>
+            <p>
+                <i>
+                    Myšlenka, že by měl prezident spojovat či mít určitou integrující roli, není nijak zvlášť revoluční.
+                    Přesto, a možná i částečně proto, ji vnímám jako důležitou. Jak by měl prezident ale spojování
+                    dosahovat? Jak naději, důvěru a blízkost vzbouzet?
+                    Člověk, který umí lidi pozitivně motivovat k aktivitě, umí se k nim stavět s otevřeností a je
+                    schopen jim předávat inspiraci, má větší šanci lidi spojit, protože takovému člověku se zkrátka
+                    lépe naslouchá, máme k němu respekt a úctu, chápeme ho jako podporu a oporu. Vybudovat
+                    si takovou pozici ale není snadné.
+
+                    <sup>[3]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn14" onclick="showhint14()">Nápověda</button>
+            <button id="answerbtn14" onclick="showanswer14()">Odpověď</button>
+            <div id="hint14" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zjistěte, zda je text subjektivně či objektivně napsán. Zaměřte se na charakteristické prvky,
+                    jakou je např. řečnická otázka?
+                </p>
+            </div>
+            <div id="answer14" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je úvahový postup. Charakteristickými prvky jsou řečnická otázka,
+                    subjektivita („vnímám“).
+
+                </p>
+            </div>
+
+            <h4>Cvičení 15</h4>
+            <p>
+                <i>
+                    ČÁST TŘETÍ<br />
+                    ORGANIZACE BANKY<br />
+                    § 8<br />
+                    (1) Představenstvo banky musí mít alespoň 3 členy. Správní rada banky musí mít alespoň 5 členů,
+                    přičemž jejím členem je statutární ředitel.<br />
+                    (2) Statutární ředitel banky nesmí být současně předsedou její správní rady; Česká národní banka
+                    může na základě odůvodněného návrhu banky povolit souběžný výkon obou funkcí, přičemž
+                    posoudí vliv souběhu funkcí na řádnost a obezřetnost výkonu činností banky vzhledem k jejich
+                    povaze, rozsahu a složitosti a s přihlédnutím k individuálním okolnostem, zejména k<br />
+                    a) dostatečnosti časové kapacity pro plnění stanovených povinností a<br />
+                    b) vzniku možného střetu zájmů.
+                    <sup>[4]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn15" onclick="showhint15()">Nápověda</button>
+            <button id="answerbtn15" onclick="showanswer15()">Odpověď</button>
+            <div id="hint15" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zaměřte se na strukturu textu. S podobnými útvary byste se mohli setkat např. v zákoníku.
+                </p>
+            </div>
+            <div id="answer15" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup. Charakteristickými prvky je přesnost a stručnost
+                    vyjádření a struktura textu.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 16</h4>
+            <p>
+                <i>
+                    Jiný nákyp z jablek<br />
+                    Utři dobře 5 lotů nového másla, dej k němu 8 žloutků, ze čtyr bílků sníh, 3 lžíce strouhané
+                    prosáté žemličky, a náležitě to promíchej; oloupej 8 míšeňských jablek, ohryzky vykroj, jablka
+                    dej na rendlík, přidej k nim cukr, trochu skořice, a nech je na kasičku vysmahnout; když
+                    vychladnou, dej je do toho utřeného těstíčka a hezky to promíchej; nyní vylož melounovou
+                    formičku máslovým těstem, dej do něho tu míchaninku, na to udělej pokličku zase z máslového
+                    těsta a nech to pěkně upéct; pak to posyp cukrem a dej na stůl.
+                    <sup>[5]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn16" onclick="showhint16()">Nápověda</button>
+            <button id="answerbtn16" onclick="showanswer16()">Odpověď</button>
+            <div id="hint16" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Pro tento slohový postup je typická stručnost a přesnost vyjádření a slovesa v rozkazovacím
+                    způsobu.
+                </p>
+            </div>
+            <div id="answer16" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Charakteristickými prvky jsou slovesa v rozkazovacím
+                    způsobu, posloupnost jednotlivých kroků, veličiny (loty).
+
+                </p>
+            </div>
+
+            <h4>Cvičení 17</h4>
+            <p>
+                <i>
+                    V době vzniku konsorcia W3C se také objevily první webové prohlížeče – Netscape Navigator v
+                    prosinci roku 1994 a Internet Explorer (IE) od společnosti Microsoft v srpnu roku 1995. Oba
+                    webové prohlížeče měly podobný základ zdrojového kódu a zobrazovaly webové stránky
+                    stejným způsobem. Samozřejmě webové stránky té doby se vizuálně velmi lišily od těch
+                    současných, a proto nebylo těžké tohoto souladu dosáhnout.
+                    Když přejdeme k roku 1996, situace začíná být zajímavější. Společnost Microsoft zavedla
+                    základní podporu nového doporučení konsorcia W3C do prohlížeče IE 3, a to doporučení CSS
+                    level 1. Toto doporučení definovalo způsob, jak nastavit písmo, barvu, zarovnání textu, okraj a
+                    vnější okraj většině elementů stránky. Společnost Netscape se rychle přizpůsobila a soutěživost
+                    mezi těmito dvěma výrobci začínala nabírat na intenzitě. Obě společnosti se snažily
+                    implementovat nová a budoucí doporučení konsorcia W3C, a to často ještě předtím, než byly
+                    vydány finální verze těchto doporučení.
+
+                    <sup>[6]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn17" onclick="showhint17()">Nápověda</button>
+            <button id="answerbtn17" onclick="showanswer17()">Odpověď</button>
+            <div id="hint17" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Autor textu nám předkládá fakta jejich vnitřní souvislosti. Snaží se o přehlednost a
+                    srozumitelnost jednotlivých vyjádřeních.
+                </p>
+            </div>
+            <div id="answer17" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je výkladový postup. Charakteristickými prvky jsou termíny, zkratky, cizí
+                    slova, přehlednost, užití složitých souvětí.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 18</h4>
+            <p>
+                <i>
+                    „Pane předsedo, paní poslankyně a páni poslanci,
+                    příležitosti promluvit na půdě Evropského parlamentu, za kterou jsem vám velmi vděčen a
+                    které si hluboce vážím, nemohu dost dobře využít jinak, než pokusem odpovědět na tři otázky:
+                    za prvé proč se Česká republika, kterou tu zastupuji, uchází o členství v Evropské unii, za druhé
+                    proč je v celoevropském zájmu, aby se Evropská unie rozšiřovala, a za třetí jaké obecnější úkoly
+                    podle mého názoru dnešní doba před Evropskou unii klade… Myslím, že první otázku, na kterou
+                    jsem si předsevzal odpovědět, totiž proč se Česká republika chce stát členem Evropské unie,
+                    jsem tímto výkladem zodpověděl. Ano, jsme schopni vzdát se a rádi se vzdáme kousku své
+                    státní suverenity ve prospěch společně spravované suverenity Evropské unie, protože víme, že
+                    se nám to - tak jako ostatně všem Evropanům - mnohonásobně vyplatí: kus světa, v němž je
+                    nám dáno žít…“
+
+                    <sup>[7]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn18" onclick="showhint18()">Nápověda</button>
+            <button id="answerbtn18" onclick="showanswer18()">Odpověď</button>
+            <div id="hint18" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Autor textu zde sám říká, že si sám sobě snaží odpovědět na tři otázky. Jedná se tak o jeho
+                    subjektivní názor, který je ovšem v souvislostech podložen na faktech.
+                </p>
+            </div>
+            <div id="answer18" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je úvahový postup. Jedná se o subjektivní řeč, která je podepřena obecně
+                    známými fakty. Autor se snaží čtenáře/posluchače podnítit k vlastnímu přemýšlení a vytvoření
+                    názoru (ovšem snaží se ho přesvědčit o správnosti jeho názoru).
+
+                </p>
+            </div>
+
+            <h4>Cvičení 19</h4>
+            <p>
+                <i>
+                    <b>
+                        Myslíte, že potom, co jsme viděli posledních téměř deset let na Pražském hradě, můžeme
+                        spoléhat jen na to, že hlava státu prostě řekne, že jeho choť nebo jeho spolupracovník je
+                        čestný člověk?
+                    </b> <br />
+                    Můj muž by to hlavně nikdy neudělal, on to neudělal nikdy ve své kariéře a nevím, proč by to
+                    měl dělat teď.<br />
+                    <b>
+                        Jak zajistíte, že vaši sponzoři nebudou mít žádný vliv na případný výkon vaší prezidentské
+                        funkce? Máte řadu sponzorů z byznysu.
+                    </b><br />
+                    Protože jsem jasně deklarovala každému, kdo nám chtěl přispět, že nemůže očekávat za to, že
+                    nás podpořil, jakoukoliv protislužbu.<br />
+                    <b>Vy jste to deklarovala, ale co když za vámi potom přijdou? Jak se budete chovat?</b>
+                    <br />
+                    Platí to stejné, co jsem řekla na začátku, že nikdo z těch, kteří mě podpořili, nemohou očekávat
+                    za svoji podporu jakoukoliv protislužbu.
+
+                    <sup>[8]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn19" onclick="showhint19()">Nápověda</button>
+            <button id="answerbtn19" onclick="showanswer19()">Odpověď</button>
+            <div id="hint19" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Jedná se o interview (rozhovor). Zaměřte se na strukturu textu a použité jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer19" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup. Charakteristickými prvky jsou grafické rozlišení pro
+                    dvě osoby (jedna osoby zvýrazněna tučným písmem) a návaznost na jednotlivé informace.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 20</h4>
+            <p>
+                <i>
+                    První jihokorejská měsíční sonda Korea Pathfinder Lunar Orbiter (KPLO) provedla v pátek 16.
+                    prosince v 18:45 SEČ zhruba 13minutový motorický manévr, jenž ji navedl na eliptickou
+                    oběžnou dráhu okolo Měsíce. Jednalo se o první z pěti obdobných manévrů, které povedou k
+                    navedení na finální lunární orbitu 29. prosince.
+                    Na Twitteru na to upozornil odborník na kosmonautiku Michal Václavík z České kosmické
+                    kanceláře a Fakulty strojní ČVUT v Praze.
+
+                    <sup>[9]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn20" onclick="showhint20()">Nápověda</button>
+            <button id="answerbtn20" onclick="showanswer20()">Odpověď</button>
+            <div id="hint20" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zaměřte se na charakteristické rysy jako jsou časové údaje, aktuálnost a stručnost vyjádření.
+                </p>
+            </div>
+            <div id="answer20" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup. Charakteristickými prvky jsou místní a časové
+                    zakotvení, aktuálnost informací, slovní zásoba přizpůsobená zpracovávanému tématu.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 21</h4>
+            <p>
+                <i>
+                    Dokud byl v bližších krajích, neptal se po žádné službě, až přišel dále. Tu se zastaví v jedné
+                    vesnici a zamíří do velkého statku. Sedlák stál na záspi, čtvrt bochníku chleba v ruce, kus
+                    pomazánky, a svačil.<br />
+                    „Pochválen buď Ježíš Kristus, hospodáři!“ pozdravil Petr.<br />
+                    „Až na věky; co bys rád?“ ptal se s plnou hubou sedlák.<br />
+                    „Jestli byste nepotřeboval pacholka. Já přišel z vojny a hledám si službu.“<br />
+                    „Vysloužilý voják? Tak mladý? Tys byl asi dobré kvítí …“
+
+                    <sup>[10]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn21" onclick="showhint21()">Nápověda</button>
+            <button id="answerbtn21" onclick="showanswer21()">Odpověď</button>
+            <div id="hint21" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Charakteristickými prvky pro tento postup je přímá řeč, dějová slovesa a citově zabarvená
+                    slova.
+                </p>
+            </div>
+            <div id="answer21" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je vyprávěcí postup. Charakteristickými prvky jsou přímá řeč, dějová
+                    slovesa, slova citově zabarvená.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 22</h4>
+            <p>
+                <i>
+                    Přicházejí mraky. Ani list se nepohne, ba však obyčejně hlučné kobylky najednou ztratily hlas.
+                    Lehce zneklidňující, jinak ale naprosto klidná atmosféra je prosycená vlhkostí, úmorné dusno
+                    uspává vše živé. Hromadící se čedičově šedé mraky zakrývají oblohu. Zdá se, že z ještě před
+                    chvílí životem překypující krajiny vysávají veškerou energii. Přichází vítr. Zprvu vánek, lehký,
+                    ovšem časem gradující v prudký nárazový vichr. Z dálky je slyšet hřmění. Teď již obsidiánová
+                    obloha se přelévá, míchá, shromažďuje svou ničivou sílu k úderu. Znenadání se začnou z
+                    mračen snášet k zemí průzračné kapky vody. Dopadají na vyprahlou půdu a ihned mizí. Jedna
+                    třpytivá kapka dopadne na dlouhý list trávy. Neopatrného tesaříka, který nestihl zalézt do
+                    úkrytu, to vymrští a odhodí několik stop stranou.
+
+                    <sup>[11]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn22" onclick="showhint22()">Nápověda</button>
+            <button id="answerbtn22" onclick="showanswer22()">Odpověď</button>
+            <div id="hint22" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Jedná se o líčení. Charakteristickými prvky pro líčení jsou osobitý vztah, snaha vyvolat emoce
+                    a nabudit atmosféru tak, aby čtenář získal představu o tom, co autor popisuje.
+                </p>
+            </div>
+            <div id="answer22" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Autor u nás chce vyvolat emoce a nabudit atmosféru,
+                    kterou vnímá on sám, pomocí popisných podstatných a přídavných jmen, děj je zde potlačen.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 23</h4>
+            <p>
+                <i>
+                    Je pozoruhodnou skutečností, že druhotné pohlavní rozdíly mezi dvěma pohlavími
+                    téhož druhu se zpravidla ukazují v těchže částech organismu, ve kterých se navzájem
+                    liší různé druhy téhož rodu. Tuto skutečnost osvětlím na dvou příkladech, na prvních, které se
+                    objevují na mé listině; a protože rozdíly v těchto případech jsou velmi neobvyklé povahy, může
+                    být vztah sotva náhodný. Totéž množství článků v
+                    chodidlech je znak zpravidla společný velkým skupinám brouků, ale u čeledi Engidae, jak
+                    zaznamenává Westwood, jejich počet je velmi proměnlivý a je rovněž odlišný u obou pohlaví
+                    téhož druhu. U hrabavých blanokřídlých je opět způsob žilnatiny křídel znakem vysoce
+                    důležitým, neboť je společný velkým skupinám;
+
+                    <sup>[12]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn23" onclick="showhint23()">Nápověda</button>
+            <button id="answerbtn23" onclick="showanswer23()">Odpověď</button>
+            <div id="hint23" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Zaměřte se na užité jazykové prostředky – termíny, cizí názvy, složitá souvětí a také na
+                    vysvětlení jejich vnitřních souvislostí.
+                </p>
+            </div>
+            <div id="answer23" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je výkladový postup. Charakteristickými prvky jsou termíny (blanokřídlí), cizí
+                    názvy (Engidae), složitá souvětí a vysvětlení jejich vnitřních souvislostí.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 24</h4>
+            <p>
+                <i>
+                    Když se mu něco nelíbí nebo s něčím nesouhlasí, nebojí se říct názor na rovinu. Je velmi
+                    sebevědomý a svoje názory nemění. I když navenek vypadá jako ten největší tvrďák, je to
+                    strašně citlivá osoba. Když se s někým hádá, má tolik argumentů, že mu ten druhý dá vždy radši
+                    za pravdu. Nejhorší Tomova vlastnost je, že je často strašně líný jako veš, a když něco není tak,
+                    jak on chtěl, hned se urazí. I přes tyto jeho nálady má srdce ze zlata.
+
+                    <sup>[13]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn24" onclick="showhint24()">Nápověda</button>
+            <button id="answerbtn24" onclick="showanswer24()">Odpověď</button>
+            <div id="hint24" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Popisovaný útvar je charakteristika. Zkuste si vybavit její strukturu a jazykové prostředky.
+                </p>
+            </div>
+            <div id="answer24" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Charakteristika je popis osoby či jiné bytosti, děj se zde
+                    nevyskytuje a je zde velká koncentrace přídavných a podstatných jmen.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 25</h4>
+            <p>
+                <i>
+                    Předchozí odstavce již zmínily, že existuje více způsobů, jak Rubikovu kostku složit. Za nejsnazší
+                    z nich je obecně považováno postupné skládání vrstev, kterým se bude zabývat i tento návod.
+                    Začíná se od bílé stěny, konkrétně vytvořením kříže:<br />
+                    1. Najděte stěnu, v jejímž středu se nachází bílý kvádr.<br />
+                    2. Poskládejte na této stěně kříž (měli byste to zvládnout i bez přesného postupu).<br />
+                    3. Zbylé hrany poskládejte tak, aby se kříž spojil se středy ostatních stěn – viz nákres výše.<br />
+                    Druhý krok návodu na složení Rubikovy kostky spočívá v dokončení první vrstvy. Na konci
+                    následujícího postupu by měla krychle vypadat tak, jak znázorňuje níže umístěný nákres.
+
+                    <sup>[14]</sup>
+
+                </i><br />
+                Kterému slohovému postupu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn25" onclick="showhint25()">Nápověda</button>
+            <button id="answerbtn25" onclick="showanswer25()">Odpověď</button>
+            <div id="hint25" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Autor textu nám předkládá návod na to, jak složit Rubikovu kostku. Zaměřte se na strukturu
+                    textu a tvar sloves.
+                </p>
+            </div>
+            <div id="answer25" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup. Charakteristickými prvky jsou popis jednotlivých kroků,
+                    slovesa v rozkazovacím způsobu, odkazy na nákresy.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 26</h4>
+            <p>
+                Který slohový postup systematicky zachycuje a vypočítává vlastnosti určitého děje či objektu?
+
+            </p>
+            <button id="hintbtn26" onclick="showhint26()">Nápověda</button>
+            <button id="answerbtn26" onclick="showanswer26()">Odpověď</button>
+            <div id="hint26" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Některými útvary, které tento postup využívají mohou být např. líčení, charakteristika či
+                    návod.
+                </p>
+            </div>
+            <div id="answer26" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je popisný postup.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 27</h4>
+            <p>
+                Který slohový postup vysvětluje nejen vnější znaky, ale i vnitřní vztahy jednotlivých dějů či
+                objektů a na základě těchto postupů pak vyvozuje závěry?
+
+            </p>
+            <button id="hintbtn27" onclick="showhint27()">Nápověda</button>
+            <button id="answerbtn27" onclick="showanswer27()">Odpověď</button>
+            <div id="hint27" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento postup je nejnáročnější ze všech. Některými útvary, které tento slohový postup využívají
+                    mohou být např. řeč, přednáška nebo studie.
+                </p>
+            </div>
+            <div id="answer27" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je výkladový postup.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 28</h4>
+            <p>
+                Kterým slohovým postupem pouze konstatujeme skutečnosti a nijak více nerozvíjíme
+                jednotlivé detaily či vztahy mezi jednotlivými fakty?
+
+            </p>
+            <button id="hintbtn28" onclick="showhint28()">Nápověda</button>
+            <button id="answerbtn28" onclick="showanswer28()">Odpověď</button>
+            <div id="hint28" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento slohový postup je jeden z nejjednodušších a používáme ho nejčastěji v běžné
+                    komunikaci.
+                </p>
+            </div>
+            <div id="answer28" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je informační postup.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 29</h4>
+            <p>
+                Který slohový postup vysvětluje skutečnosti a vztahy mezi nimi, ale zároveň umožňuje autorovi
+                vyjádřit jeho vlastní názor a domněnky na dané téma?
+
+
+            </p>
+            <button id="hintbtn29" onclick="showhint29()">Nápověda</button>
+            <button id="answerbtn29" onclick="showanswer29()">Odpověď</button>
+            <div id="hint29" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento slohový postup je velmi podobný výkladovému, ovšem nechává autorovi prostor na
+                    subjektivní názor.
+                </p>
+            </div>
+            <div id="answer29" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je úvahový postup.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 30</h4>
+            <p>
+                Který slohový postup dynamickým způsobem podává průběh jedinečného děje, který má svou
+                časovou linii a řadí se podle jednotlivých dějových složek?
+
+
+            </p>
+            <button id="hintbtn30" onclick="showhint30()">Nápověda</button>
+            <button id="answerbtn30" onclick="showanswer30()">Odpověď</button>
+            <div id="hint30" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento postup hojně využívá dynamických sloves, které posunují děj vpřed. Preferuje kratší věty
+                    před složitými souvětími.
+                </p>
+            </div>
+            <div id="answer30" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je vyprávěcí postup.
+
+                </p>
+            </div>
+
+            <h3>Zdroje</h3>
+            <p>
+                <sup>[1]</sup> VONDRÁČEK, Jakub. Maturita aneb Nikdy není tak špatně. In: Cesky-jazyk.cz [online].
+                26.04.2017 [cit. 2022-12-18]. Dostupné z: <a href="https://www.ceskyjazyk.cz/slohovky/fejetony/maturita-aneb-nikdy-neni-tak-spatne.html#axzz7notQjHGo">https://www.ceskyjazyk.cz/slohovky/fejetony/maturita-aneb-nikdy-neni-tak-spatne.html#axzz7notQjHGo</a>
+            </p>
+            <p>
+                <sup>[2]</sup> VERNE, Jules. Dvacet tisíc mil pod mořem: 20 000 leagues under the sea. Praha: Dobrovský,
+                2015. Podivuhodná putování. ISBN 978-80-7390-228-5.
+            </p>
+            <p>
+                <sup>[3]</sup>  BALCAROVÁ, Anna. Prezident jako zdroj inspirace [online]. In: . [cit. 2022-12-18]. Dostupné
+                z:  <a href="
+https://www.vaclavhavel.cz/admnew/_upload/docs/3misto_balcarova_anna_1670577839.pdf">
+                    https://www.vaclavhavel.cz/admnew/_upload/docs/3misto_balcarova_anna_1670577839.pdf
+                </a>
+            </p>
+            <p>
+                <sup>[4]</sup> 21/1992 Sb. Zákon o bankách. Zákony pro lidi - Sbírka zákonů ČR v aktuálním
+                konsolidovaném znění [online]. Copyright © AION CS, s.r.o. 2010 [cit. 18.12.2022]. Dostupné
+                z: <a href="https://www.zakonyprolidi.cz/cs/1992-21#cast3">https://www.zakonyprolidi.cz/cs/1992-21#cast3</a>
+            </p>
+            <p>
+                <sup>[5]</sup> RETTIGOVÁ, Magdalena Dobromila. Domácí kuchařka. Vydání třetí. V Praze: Ikar, 2016. ISBN
+                978-80-249-3056-5.
+            </p>
+            <p>
+                <sup>[6]</sup> ODELL, Den. JavaScript: průvodce programováním ajaxových aplikací. Vydání třetí. Brno:
+                Computer Press, 2010. ISBN 978-80-251-2733-9.
+            </p>
+            <p>
+                <sup>[7]</sup> Projev prezidenta republiky Václava Havla v Evropském parlamentu. In: MUNI [online]. [cit.
+                2022-12-18]. Dostupné z: <a href="
+https://is.muni.cz/el/1423/jaro2015/EVS130/um/55306078/Havel_projev_v_EP_brezen_1994.pdf">
+    https://is.muni.cz/el/1423/jaro2015/EVS130/um/55306078/Havel_projev_v_EP_brezen_1994.pdf</a>
+            </p>
+            <p>
+                <sup>[8]</sup> Rozhovor s Danuší Nerudovou: Můj muž je čestný člověk, k střetu zájmů by nedocházelo |
+                E15.cz. E15.cz - Byznys, politika, ekonomika, finance, události [online]. Copyright © 2001 [cit.
+                18.12.2022]. Dostupné z: <a href="https://www.e15.cz/volby/prezidentske-volby/nerudova-muj-muzje-cestny-clovek-k-zadnemu-stretu-zajmu-na-hrade-by-urcite-nedochazelo-1394981">https://www.e15.cz/volby/prezidentske-volby/nerudova-muj-muzje-cestny-clovek-k-zadnemu-stretu-zajmu-na-hrade-by-urcite-nedochazelo-1394981</a>
+            </p>
+            <p>
+                <sup>[9]</sup> „Užít si Měsíc“. Na lunární orbitě se uvelebuje jihokorejská sonda - Novinky. Novinky.cz -
+                nejčtenější zprávy na českém internetu [online]. Copyright © 2003 [cit. 18.12.2022].
+                Dostupné z: <a href="https://www.novinky.cz/clanek/veda-skoly-uzit-si-mesic-na-lunarni-orbite-seuvelebuje-jihokorejska-sonda-40417769">: https://www.novinky.cz/clanek/veda-skoly-uzit-si-mesic-na-lunarni-orbite-seuvelebuje-jihokorejska-sonda-40417769</a>
+            </p>
+            <p>
+                <sup>[10]</sup> NĚMCOVÁ, Božena. Nejznámější pohádky. V MKP 1. elektronické vydání. Praha: Městská
+                knihovna v Praze, 2019. ISBN 978-80-274-0036-2.
+            </p>
+            <p>
+                <sup>[11]</sup> Krajina v bouři - líčení | Rozbor-dila.cz. Rozbor-dila.cz | To nejlepší k maturitě [online].
+                Dostupné z: <a href="https://rozbor-dila.cz/krajina-v-bouri-liceni/o">: https://rozbor-dila.cz/krajina-v-bouri-liceni/</a>
+            <p>
+                <sup>[12]</sup> DARWIN, Charles. O vzniku druhů přírodním výběrem. Vyd. 3., V nakl. Academia 2., rev.
+                Praha: Academia, 2007. Europa (Academia). ISBN 978-80-200-1492-4.
+            </p>
+            <p>
+                <sup>[13]</sup> Charakteristika: Člověk, který mi změnil život | Slohové práce | Český-jazyk.cz aneb
+                studentský underground. [online]. Copyright © 2003 [cit. 18.12.2022]. Dostupné z:<a href="
+https://www.cesky-jazyk.cz/slohovky/charakteristiky/clovek-ktery-mi-zmenilzivot.html#axzz7notQjHGo">
+    https://www.cesky-jazyk.cz/slohovky/charakteristiky/clovek-ktery-mi-zmenilzivot.html#axzz7notQjHGo</a>
+            </p>
+            <p>
+                <sup>[14]</sup> Jak složit Rubikovu kostku? - 1t.cz - praktické návody a recenze. 1t.cz - praktické návody a
+                recenze - Nezávislé recenze a návody [online]. Dostupné z: <a href="https://1t.cz/jak-slozit-rubikovukostku/">https://1t.cz/jak-slozit-rubikovukostku/</a>
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        Tato stránka a její obsah byly vytvořeny Kateřinou Haasovou a Markétou
+        Zelenkovou
+    </div>
+</body>
+</html>

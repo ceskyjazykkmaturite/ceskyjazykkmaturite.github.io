@@ -1,0 +1,750 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Český jazyk k maturittě</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
+          rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/scriptdm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logolink" href="../index.html">
+                <div class="logo">
+                    <p>Český jazyk<br />k maturitě</p>
+                </div>
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">MENU</a></li>
+                    <li><a href="../about.html">O PROJEKTU</a></li>
+                    <li><a href="../contacts.html">KONTAKT</a></li>
+                    <li>
+                        <button class="modetoggle" onclick="dmtoggle()">
+                            <span class="material-symbols-outlined"> dark_mode </span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>Cvičení k funkčním stylům</h1>
+            <h4>Cvičení 1</h4>
+            <p>
+                <i>
+                    Na topole nad jezerem<br />
+                    seděl Vodník podvečerem:<br />
+                    „Sviť, měsíčku, sviť,<br />
+                    ať mi šije niť.<br /><br />
+                    Šiju, šiju si botičky<br />
+                    do sucha i do vodičky:<br />
+                    sviť, měsíčku, sviť,<br />
+                    ať mi šije niť.<br /><br />
+                    Dnes je čtvrtek, zejtra pátek —<br />
+                    šiju, šiju si kabátek:<br />
+                    sviť, měsíčku, sviť,<br />
+                    ať mi šije niť.
+                    <sup>[1]</sup>
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn1" onclick="showhint1()">Nápověda</button>
+            <button id="answerbtn1" onclick="showanswer1()">Odpověď</button>
+            <div id="hint1" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text je psaný formou básně. Autorovi textu tedy nejde pouze o obsahovou stránku textu, ale
+                    i o jeho estetickou část. výraznou částí textu je i jeho refrén (sviť měsíčku, …).
+                </p>
+            </div>
+            <div id="answer1" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je umělecký styl. Text je báseň, což je jasný indikátor uměleckého textu,
+                    protože autorovi nejde pouze o obsahovou, ale i o estetickou stránku. Autor také často
+                    využívá citově zabarvená slova, děj je promyšlený a je zde výrazný autorův styl.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 2</h4>
+            <p>
+                <i>
+                    Ani v běhu nepatřila mezi nejrychlejší, měla šestnáctý čas. "Cítila jsem se docela dobře.
+                    Nejsem si úplně jistá, že se dneska máza trefila dobře. Musíme si to probrat v kamionu,"
+                    poznamenala.
+                    V posledním sprintu před mistrovstvím světa nenavázala na stříbro z Hochfilzenu a pátou
+                    příčku z Pokljuky. "Představovala bych si ten závod trošku jinak, ale musím to brát, jak to je.
+                    Snažím se do toho dát maximum a občas to stačí na lepší místo a občas na horší," dodala.
+                    Na vítěznou domácí Dorotheu Wiererovou ztratila 55,5 vteřiny. Zkušenou Italku na stupně
+                    vítězů doprovodily další bezchybné střelkyně Chloé Chevalierová z Francie a Švédka Elvira
+                    Öbergová. Medailistky se v cíli vešly do rozmezí devíti vteřin.
+                    <sup>[2]</sup>
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn2" onclick="showhint2()">Nápověda</button>
+            <button id="answerbtn2" onclick="showanswer2()">Odpověď</button>
+            <div id="hint2" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text nás informuje o aktuálním dění, zpracovává událost a objektivně nás o ní informuje.
+                    V textu je využit výhradně spisovný jazyk a střídají se zde jednoduché věty a složitější
+                    souvětí.
+
+                </p>
+            </div>
+            <div id="answer2" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je publicistický styl. Hlavním znakem je aktuálnost textu a snaha
+                    informovat čtenáře o výsledku určité události. Dalšími znaky je použití spisovného jazyka,
+                    ustálených obratů a využití dějových sloves.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 3</h4>
+            <p>
+                <i>
+                    <b>Rozúčtování nákladů na služby</b> <br />
+                    (1) Způsob rozúčtování poskytovatel služeb ujedná s dvoutřetinovou většinou nájemců
+                    v domě, nebo o něm rozhodne družstvo, anebo společenství. Změna způsobu rozúčtování je
+                    možná vždy až po uplynutí zúčtovacího období.<br />
+                    (2) Nedojde-li k ujednání, nebo rozhodnutí družstva, anebo společenství, rozúčtují se náklady
+                    na služby takto<br />
+                    a) dodávka vody a odvádění odpadních vod v poměru naměřených hodnot na podružných
+                    vodoměrech; není-li provedena instalace podružných vodoměrů ve všech bytech nebo
+                    nebytových prostorech v domě, rozúčtují se náklady na dodávku vody a odvádění odpadních
+                    vod podle směrných čísel roční potřeby vody,<br />
+                    b) provoz a čištění komínů podle počtu využívaných vyústění do komínů, […]
+                    <sup>[3]</sup>
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn3" onclick="showhint3()">Nápověda</button>
+            <button id="answerbtn3" onclick="showanswer3()">Odpověď</button>
+            <div id="hint3" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text je výstižný, srozumitelný a stručný. Je v něm využit výhradně spisovný jazyk a je použita
+                    heslovitá struktura pro přehlednost textu.
+
+                </p>
+            </div>
+            <div id="answer3" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je administrativní styl. Charakteristickými prvky jsou použití heslovité
+                    struktury, citově neutrálních slov a spisovného jazyka. Funkce textu je pouze informativní
+                    a regulativní.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 4</h4>
+            <p>
+                <i>
+                    Milí spoluobčané. Když vstupovala před rokem do života samostatná Česká republika, pro
+                    většinu z nás to byl spíš důvod k zamyšlení, než k oslavám. Ptali jsme se sami sebe, co pro
+                    nás všechny, Čechy i Slováky, bude znamenat toto rozdělení našeho dosavadního domova,
+                    co to bude znamenat pro Střední Evropu? Máme to chápat jako úspěch našich reprezentací
+                    nebo jako prohru v zápase o společný stát? Myslím, že první rok naší nové státní existence
+                    rozptýlil větší část loňských obav.
+                    <sup>[4]</sup>
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn4" onclick="showhint4()">Nápověda</button>
+            <button id="answerbtn4" onclick="showanswer4()">Odpověď</button>
+            <div id="hint4" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Charakteristickými prvky pro tento styl je oslovení, časté použití řečnických otázek a spisovný
+                    jazyk. Na posluchače/čtenáře má emotivní působivost.
+
+
+                </p>
+            </div>
+            <div id="answer4" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je řečnický styl. Pro tento styl je typická jeho oficiálnost a připravenost
+                    projevu, přímý kontakt s posluchači, na které má projev emotivní působivost. Převažuje
+                    spisovný jazyk a časté jsou řečnické otázky.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 5</h4>
+            <p>
+                <i>
+                    Lev pustinný (Panthera leo) je savec čeledi kočkovitých a jeden z pěti druhů velkých koček
+                    rodu Panthera. Lev je po tygrovi druhá největší kočkovitá šelma. U lvů se projevuje výrazný
+                    pohlavní dimorfismus, hlavním a určujícím rysem lvích samců je jejich hříva. Samci váží
+                    150–250 kg a samice 90–165 kg. V divočině se lvi dožívají 10–14 let, kdežto v zajetí se mohou
+                    dožít i věku 20 let. Dříve se lvi vyskytovali v celé Africe, ve velké části Asie, v Evropě a
+                    dokonce i v Americe, dnes se vyskytují pouze v Africe a v nevelké části Indie. Jsou to
+                    společenská zvířata a loví ve smečkách. Jejich nejčastější kořistí jsou velcí savci, především
+                    kopytníci. Mezinárodní svaz ochrany přírody hodnotí lva jako zranitelný druh.<sup>[5]</sup>
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn5" onclick="showhint5()">Nápověda</button>
+            <button id="answerbtn5" onclick="showanswer5()">Odpověď</button>
+            <div id="hint5" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    V textu je použit výhradně spisovný jazyk, ve kterém se často objevují termíny a např.
+                    latinské názvy. Převažují v něm složitější souvětí.
+
+
+                </p>
+            </div>
+            <div id="answer5" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je odborný styl. Text je objektivní, přehledný a předává čtenáři fakta, která
+                    jsou věcně správná a přesná. Dalšími znaky je využití složitějších souvětí, termínů a cizích
+                    názvů.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 6</h4>
+            <p>
+                <i>
+                    <b>Kdy naposledy jsi si byla zahrát tenis sama na sebe?</b> <br />
+                    Od té doby, co jsem skončila, tak jsem si sama za sebe zahrát nešla. Mě nebaví jít si jen tak
+                    zapinkat. To mě neláká. Jakmile bych šla na kurt, tak bych musela hrát naplno. Třeba nyní mě
+                    oslovili, jestli bych si nezahrála na Wimbledonu turnaj legend. Na to se ale ještě necítím,
+                    protože jsem skončila před dvěma lety. Pokud tam ale budou hráčky z mé éry, tak si to třeba
+                    za rok už dokážu představit.<br />
+                    <b>Jak moc tenis sleduješ, výsledky a dění na okruhu WTA?</b><br />
+                    Nechci říct, že bych to neměla vůbec v merku, určitě vím, kdo vyhrál Roland Garros, občas se
+                    dívám i na mužské zápasy. Ale určitě to není tak, že bych si sedla a podívala se na finále
+                    turnaje v Madridu.<sup>[6]</sup>
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn6" onclick="showhint6()">Nápověda</button>
+            <button id="answerbtn6" onclick="showanswer6()">Odpověď</button>
+            <div id="hint6" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Z ukázky textu je vidět, že se jedná o rozhovor mezi dvěma osobami (grafické rozlišení –
+                    tučný text). Věty jsou spíše jednoduché, stejně tak slovní zásoba. Často jsou použity
+                    hovorové výrazy.
+
+                </p>
+            </div>
+            <div id="answer6" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je prostěsdělovací styl. Text nás neinformuje o aktuálním dění, ani nemá
+                    jinou funkci než dorozumívací. Dalším znakem je převaha jednodušších vět a nepřipravenost
+                    projevu.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 7</h4>
+            <p>
+                <i>
+                    V Praze dne 1. dubna 2023<br />
+                    Vážený pane řediteli,<br />
+                    Chtěl bych Vás požádat o uvolnění z výuky ve dnech od 22. května do 26. května z důvodu<br />
+                    sportovního soustředění.<br />
+                    Jméno: Adam Hládek<br />
+                    Narozen: 6. 4. 2005<br />
+                    Třída: 3.D<br />
+                    Podpis zák. zástupce: …………………….. Podpis žáka: ……………………..
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn7" onclick="showhint7()">Nápověda</button>
+            <button id="answerbtn7" onclick="showanswer7()">Odpověď</button>
+            <div id="hint7" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text je velmi stručný a přímý. Všimněte si použitého jazyka a formátu textu.
+
+
+                </p>
+            </div>
+            <div id="answer7" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je administrativní styl. Text je stručný, věcný, napsán spisovným jazykem
+                    a je citově neutrální. Dalším znakem je strukturovanost textu.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 8</h4>
+            <p>
+                Jaký styl odborného stylu je určen pro veřejnost a je napsán tak, aby mu rozuměli laici?
+            </p>
+            <button id="hintbtn8" onclick="showhint8()">Nápověda</button>
+            <button id="answerbtn8" onclick="showanswer8()">Odpověď</button>
+            <div id="hint8" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tyto texty nezachází do hloubky, obsahují většinou pouze základní informace obohacené
+                    o zajímavosti.
+
+                </p>
+            </div>
+            <div id="answer8" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je populárně naučný. Jde o texty, jejichž podstatou je, aby byly
+                    srozumitelné pro kohokoli, kdo je čte.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 9</h4>
+            <p>
+                <i>
+                    <b>Vodík - prvek s mnoha nej</b><br />
+                    Vodík je nejrozšířenější prvek ve vesmíru, třetí nejrozšířenější prvek na Zemi a zároveň
+                    nejlehčí ze všech dosud známých prvků. Reaguje téměř se všemi prvky periodické soustavy
+                    prvků s vyjímkou vzácných plynů.<br />
+                    Vodík je bezbarvý plyn bez chuti a zápachu. Ale pozor, ve směsi se vzduchem je velmi
+                    explozivní. Všechny hvězdy a hvězdné galaxie ve vesmíru jsou tvořené převážně vodíkem.
+                    Na Zemi vytváří dvouatomové molekuly H2.
+                    <sup>[7]</sup>
+                </i><br />
+                Jakému stylu z odborných stylů nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn9" onclick="showhint9()">Nápověda</button>
+            <button id="answerbtn9" onclick="showanswer9()">Odpověď</button>
+            <div id="hint9" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text je napsán jednoduše, pro specifickou skupinu čtenářů. Využívá grafických prvků a snaží
+                    se, aby si čtenář zapamatoval informace o pojednávaném předmětu.
+
+                </p>
+            </div>
+            <div id="answer9" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je učební styl. Text je napsán pro žáky osmého ročníku ZŠ, používá
+                    grafické zvýraznění (tučný text) podstatných částí textu, je velmi zjednodušený a jeho
+                    účelem je vzdělat čtenáře.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 10</h4>
+            <p>
+                <i>
+                    Oči se jí rozzářily jako noční nebe, koutky se nadzvedly v lehký úsměv. Zatímco ona
+                    pozorovala jak se rachejtle rozlétají do všech směrů, já z ní nemohl spustit zrak. Byla to
+                    dlouhá doba co jsem ji viděl takhle šťastnou a já si přál, aby tahle chvíle nikdy neskončila.<br />
+                    ,,Šťastný nový rok.” Nový rok, nový začátek. Když mi to říkala, bylo vidět že je o tom ona
+                    sama přesvědčená a já v to začínal věřit taky.<br />
+                    ,,Tobě taky.”
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn10" onclick="showhint10()">Nápověda</button>
+            <button id="answerbtn10" onclick="showanswer10()">Odpověď</button>
+            <div id="hint10" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text se snaží vyvolat emoce, působit na estetickou stránku čtenáře a jeho cílem je probudit
+                    čtenářovu představivost.
+
+                </p>
+            </div>
+            <div id="answer10" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je umělecký styl. Text je napsán v ich formě, používá přirovnání, je to
+                    ukázka z vyprávění.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 11</h4>
+            <p>
+                Jaký styl se vyznačuje používáním termínů, objektivitou a přesností?
+            </p>
+            <button id="hintbtn11" onclick="showhint11()">Nápověda</button>
+            <button id="answerbtn11" onclick="showanswer11()">Odpověď</button>
+            <div id="hint11" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento styl se často používá složitější souvětí a spisovný jazyk. Text by měl být celistvý
+                    a vnitřně uspořádaný
+                </p>
+            </div>
+            <div id="answer11" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je odborný styl. Tento styl má za úkol předat přesné, přehledné informace
+                    o pojednávaném předmětu
+
+                </p>
+            </div>
+
+            <h4>Cvičení 12</h4>
+            <p>
+                Jaký styl se používá při oficiálních proslovech?
+            </p>
+            <button id="hintbtn12" onclick="showhint12()">Nápověda</button>
+            <button id="answerbtn12" onclick="showanswer12()">Odpověď</button>
+            <div id="hint12" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Jedná se o jeden z nejstarších funkčních stylů, je předpřipravený.
+
+                </p>
+            </div>
+            <div id="answer12" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je řečnický styl. Narozdíl od prostěsdělovacího je používán při
+                    připravených oficiálních projevech, ne při prostém každodenním sdělování informací.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 13</h4>
+            <p>
+                <i>
+                    Srdečně zveme všechny spoluobčany na tradiční Vánoční trhy, které se budou konat 21.
+                    prosince 2023 od 17:00 na náměstí, zakončeny budou zpěvem vánočních koled žáky naší
+                    základní školy, které začnou ve 20:30. Těšíme se na Vás
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn13" onclick="showhint13()">Nápověda</button>
+            <button id="answerbtn13" onclick="showanswer13()">Odpověď</button>
+            <div id="hint13" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text nám sděluje, že se bude konat akce, je krátký a jednoduše napsaný.
+
+                </p>
+            </div>
+            <div id="answer13" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je prostěsdělovací styl. Jedná se o pozvánku na akci a informuje nás o
+                    tom, jak bude akce probíhat.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 14</h4>
+            <p>
+                <i>
+                    <b>Agrese a šikany přibývá už i ve školkách. Učitelé viní covid a příliš volnou výchovu</b><br />
+                    Už v mateřské škole se některé děti chovají agresivně nebo ubližují svým vrstevníkům. Podle
+                    dat České školní inspekce takových případů přibývá, stejně jako mírně narůstá mezi malými
+                    dětmi šikana. Podle oslovených učitelek i ředitelek mateřských škol často za nevhodné
+                    chování mohou rodiče, kteří dítě neumí dostatečně vychovat. Pozorují ale také dozvuky
+                    pandemie covidu, kdy byly děti doma.<br />
+                    Podle výroční zprávy školní inspekce přibylo především případů agrese, násilí či ublížení na
+                    zdraví. Oproti předminulému školnímu roku o tři procentní body. Takové chování se objevuje
+                    již zhruba na každé osmé mateřské škole. Stoupl také počet malých vandalů a případů
+                    poškozování majetku, mírně přibylo i šikany.
+
+
+                    <sup>[8]</sup>
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+
+            </p>
+            <button id="hintbtn14" onclick="showhint14()">Nápověda</button>
+            <button id="answerbtn14" onclick="showanswer14()">Odpověď</button>
+            <div id="hint14" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Text pojednává o aktuální situaci na školách a o tom, jak tato situace nastala a obsahuje
+                    aktuální data.
+
+                </p>
+            </div>
+            <div id="answer14" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je publicistický styl. Jedná se o ukázku z článku, který byl publikován
+                    v online deníku Aktuálně.cz.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 15</h4>
+            <p>
+                Jaký styl se vyznačuje emocionální zabarveností, využívá všech forem jazyka, je subjektivní
+                a snaží se zapůsobit na city, rozum a představivost?
+
+            </p>
+            <button id="hintbtn15" onclick="showhint15()">Nápověda</button>
+            <button id="answerbtn15" onclick="showanswer15()">Odpověď</button>
+            <div id="hint15" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento styl často využívá obrazná pojmenování a je velmi expresivní, často je v textu výrazný
+                    autorův styl.
+
+                </p>
+            </div>
+            <div id="answer15" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je umělecký styl. Text se snaží na čtenáře zapůsobit jak po obsahové
+                    stránce, tak estetické, pokouší se čtenáře vtáhnout do děje.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 16</h4>
+            <p>
+                <i>
+                    <b>První exoplaneta</b><br />
+                    Průvodců okolních hvězd bude zřejmě více, než jsme si dokázali vysnít
+                    Pokusy najít planety cizích sluncí (exoplanety) narážejí na specifické problémy. Planety totiž,
+                    jak plyne z definice, víceméně jen rozptylují světlo mateřské hvězdy. Z toho plynoucí
+                    nepoměr jasností řádu jedné ku miliardě je vskutku velkou překážkou pro jejich přímé
+                    zobrazení, neboť zcela přezářený obraz exoplanety se bude v nejlepším případě nalézat
+                    méně než 2" od obrazu mateřské hvězdy.<br />
+                    Nedávno zesnulý holandsko-americký astronom Peter van de Kamp (1901–1995) zasvětil
+                    větší část svého života nepřímému odhalení exoplanet u čtvrté nejbližší cizí hvězdy, zvané
+                    Barnardova šipka a vzdálené od nás pouhých 6 světelných let. Důkaz založil na údajném
+                    sinusovém pohybu hvězdy při jejím prostorovém letu – tyto výchylky by mohla způsobit
+                    gravitace jedné či více exoplanet. Astronomové však van de Kampův názor nepřijali – šlo
+                    patrně o periodické změny optických vlastností teleskopu.
+                    <sup>[9]</sup>
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+    
+            </p>
+            <button id="hintbtn16" onclick="showhint16()">Nápověda</button>
+            <button id="answerbtn16" onclick="showanswer16()">Odpověď</button>
+            <div id="hint16" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tento naučný text nám sděluje informace o exoplanetách, využívá odborné názvy, neboli
+                    termíny.
+                </p>
+            </div>
+            <div id="answer16" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je odborný. Tento článek je dostupný na portálu vesmir.cz, byl vydán
+                    v odborném časopise vesmír. Jedná se o populárně naučný text pojednávající o
+                    exoplanetách.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 17</h4>
+            <p>
+                Jaký ze stylů odborného stylu musí přizpůsobit náročnost cílové skupině, často zjednodušuje
+                fakta, bývá vizuálně upravený například pomocí fontů a má za úkol čtenáře vzdělat?
+            </p>
+            <button id="hintbtn17" onclick="showhint17()">Nápověda</button>
+            <button id="answerbtn17" onclick="showanswer17()">Odpověď</button>
+            <div id="hint17" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Tyto texty se často využívají ve školách jako vzdělávací materiál.
+
+                </p>
+            </div>
+            <div id="answer17" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je učební styl. Jeho cílové skupiny mohou být žáci základní školy, studenti
+                    vysoké školy apod., proto je nutné aby se náročnost textu tomuto přizpůsobila.
+
+                </p>
+            </div>
+
+            <h4>Cvičení 18</h4>
+            <p>
+                Jaký ze stylů odborného stylu obsahuje poznatky pro převedení do reálné činnosti?
+
+            </p>
+            <button id="hintbtn18" onclick="showhint18()">Nápověda</button>
+            <button id="answerbtn18" onclick="showanswer18()">Odpověď</button>
+            <div id="hint18" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Do tohoto stylu spadá například popis chemického pokusu.
+
+                </p>
+            </div>
+            <div id="answer18" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je prakticky odborný styl. Do této kategorie může spadat například návod
+                    na složení skříně.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 19</h4>
+            <p>
+                <i>
+                    Dobrý den paní Květová,<br />
+                    chtěla jsem se Vás zeptat, jestli byste mohla 3. 2. v 15:00 dorazit do mé kanceláře,
+                    potřebovala bych s Vámi probrat Vaší nejnovější zprávu o chodu Vašeho oddělení.<br />
+                    Pokud se Vám čas nehodí, ráda se přizpůsobím.<br />
+                    S pozdravem,<br />
+                    Anna Kratochvílová
+
+
+                </i><br />
+                Jakému funkčnímu stylu nejvíce odpovídá ukázka textu?
+            </p>
+            <button id="hintbtn19" onclick="showhint19()">Nápověda</button>
+            <button id="answerbtn19" onclick="showanswer19()">Odpověď</button>
+            <div id="hint19" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Toto je ukázka jednoduché psané komunikace, není nějak předpřipravená, osoby v textu se
+                    snaží domluvit na setkání.
+
+                </p>
+            </div>
+            <div id="answer19" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je prostěsdělovací styl. Jedná se o jednoduchou e-mailovou komunikaci.
+
+
+                </p>
+            </div>
+
+            <h4>Cvičení 20</h4>
+            <p>
+                Jaký ze stylů odborného stylu je určen pro lidi se zkušeností v oboru a vyznačuje se svou
+                složitostí a odborností?
+            </p>
+            <button id="hintbtn20" onclick="showhint20()">Nápověda</button>
+            <button id="answerbtn20" onclick="showanswer20()">Odpověď</button>
+            <div id="hint20" style="display: none">
+                <h5>Nápověda</h5>
+                <p>
+                    Vyznačuje se složitou a odbornou terminologií, není vhodný pro začátečníky
+                </p>
+            </div>
+            <div id="answer20" style="display: none">
+                <h5>Odpověď</h5>
+                <p>
+                    Správná odpověď je teoreticky odborný (vědecký) styl. Snaží se být co nejpřesnější a
+                    obsahuje nejvíc termínů.
+
+
+                </p>
+            </div>
+
+           
+
+            <h3>Zdroje</h3>
+            <p>
+                <sup>[1]</sup> ] ERBEN, Karel Jaromír. Kytice. V nakl. Fragment 2. vyd. Praha: Fragment, 2014. Česká klasika
+                (Fragment). ISBN 978-80-253-2289-5
+            </p>
+            <p>
+                <sup>[2]</sup> Davidová byla ve sprintu biatlonistek v Anterselvě šestnáctá, vyhrála Wiererová |
+                ČeskéNoviny.cz. České noviny | ČeskéNoviny.cz [online]. Copyright © Copyright 2023 ČTK
+                [cit. 22.01.2023]. Dostupné z:<a href="https://www.ceskenoviny.cz/zpravy/davidova-byla-ve-sprintu-biatlonistek-v-anterselve-sestnacta-vyhrala-wiererova/2313760">
+    https://www.ceskenoviny.cz/zpravy/davidova-byla-ve-sprintu-biatlonistek-v-anterselve-sestnacta-vyhrala-wiererova/2313760
+</a>
+
+            </p>
+            <p>
+                <sup>[3]</sup>  67/2013 Sb. Zákon, kterým se upravují některé otázky související s poskytováním plnění
+                spojených s užíváním bytů.... Zákony pro lidi - Sbírka zákonů ČR v aktuálním konsolidovaném
+                znění [online]. Copyright © AION CS, s.r.o. 2010 [cit. 22.01.2023]. Dostupné z: <a href="https://www.zakonyprolidi.cz/cs/2013-67">
+
+    https://www.zakonyprolidi.cz/cs/2013-67
+
+</a>
+            </p>
+            <p>
+                <sup>[4]</sup> Novoroční projevy prezidenta Václava Havla 1990 - 2003 | Plus. Český rozhlas Plus
+                [online]. Copyright © 1997 [cit. 22.01.2023]. Dostupné z: <a href="
+https://plus.rozhlas.cz/novorocni-projevy-prezidenta-vaclava-havla-1990-2003-7825891
+">
+    https://plus.rozhlas.cz/novorocni-projevy-prezidenta-vaclava-havla-1990-2003-7825891
+</a>
+            </p>
+            <p>
+                <sup>[5]</sup> Lev – Wikipedie. Wikipedie [online] [cit. 22.01.2023]. Dostupné z:<a href="
+https://cs.wikipedia.org/wiki/Lev">
+    https://cs.wikipedia.org/wiki/Lev
+</a>
+            </p>
+            <p>
+                <sup>[6]</sup> Bývalá tenistka Dominika Cibulková: Po kariéře je mojí prioritou syn Jakub. Tenis mi nechybí
+                | Radiožurnál Sport. Radiožurnál Sport | Český rozhlas [online]. Copyright © 1997 [cit.
+                22.01.2023]. Dostupné z:<a href="https://sport.rozhlas.cz/byvala-tenistka-dominika-cibulkova-po-kariere-je-moji-prioritou-synjakub-tenis-8771425">
+    https://sport.rozhlas.cz/byvala-tenistka-dominika-cibulkova-po-kariere-je-moji-prioritou-synjakub-tenis-8771425
+</a>
+            </p>
+            <p>
+                <sup>[7]</sup>HOLEC, Jakub. Vodík - prvek s mnoha nej. ZŠ Kunratice [online]. Copyright © 2023 ZŠ
+                Kunratice, 18. 10. 2020 [cit. 2023-01-22]. Dostupné z:
+                <a href="https://www.zskunratice.cz/ucitele/predmety-skolni-vzdelavaci-program/chemie/8-rocnik/vodik-prvek-s-mnoha-nej.9333">
+                    https://www.zskunratice.cz/ucitele/predmety-skolni-vzdelavaci-program/chemie/8-rocnik/vodik-prvek-s-mnoha-nej.9333
+
+                </a>
+            </p>
+            <p>
+                <sup>[8]</sup> ENDRŠTOVÁ, Michaela. Agrese a šikany přibývá už i ve školkách. Učitelé viní covid a příliš
+                volnou výchovu. Aktuálně.cz [online]. Atlas.cz 1999 – 2023 © Economia, a.s., 22. 1. 2023 [cit.
+                2023-01-22]. Dostupné z: <a href="https://zpravy.aktualne.cz/domaci/nasili-sikana-skolka/r~db187e4c91ca11edbe29ac1f6b220ee8/
+">
+    https://zpravy.aktualne.cz/domaci/nasili-sikana-skolka/r~db187e4c91ca11edbe29ac1f6b220ee8/
+</a>
+            </p>
+            <p>
+                <sup>[9]</sup> GRYGAR, Jiří. První exoplaneta: Průvodců okolních hvězd bude zřejmě více, než jsme si
+                dokázali vysnít. Vesmír [online]. Vesmír 75, 493, 1996/9, 5. 9. 1996 [cit. 2023-01-22].
+                Dostupné z: <a href="https://vesmir.cz/cz/casopis/archiv-casopisu/1996/cislo-9/prvni-exoplaneta.html
+">https://vesmir.cz/cz/casopis/archiv-casopisu/1996/cislo-9/prvni-exoplaneta.html
+</a>
+            </p>
+           
+        </div>
+    </div>
+    <div class="footer">
+        Tato stránka a její obsah byly vytvořeny Kateřinou Haasovou a Markétou
+        Zelenkovou
+    </div>
+</body>
+</html>
